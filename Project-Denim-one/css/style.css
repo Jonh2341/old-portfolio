@@ -1,0 +1,273 @@
+*{
+	font-family: 'Work Sans', sans-serif;
+	text-decoration: none;
+}
+
+body{
+	margin: 0 auto;
+}
+
+.header{
+	width: 1366px;
+	height: 67px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 auto;
+}
+
+.nav{
+	display: flex;
+}
+
+.item{
+	list-style-type: none;
+	margin-right: 35px;
+}
+
+.in-li:hover{
+	border-bottom: 2px solid black;
+}
+
+.icon{
+	margin-right: 35px;
+}
+
+img.icon:last-child{
+	margin-right: 0px;
+}
+
+li.item:last-child{
+	margin-right: 0px;
+}
+
+.promo{
+	margin: 0 auto;
+	height: 617px;
+	background: #F1F2F4;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container{
+	width: 860px;
+	height:517.33px;
+	display: flex;
+}
+
+.block{
+	width: 430px;
+	height:517.33px;
+	display: flex;
+	flex-direction: column;
+}
+
+.deserve{
+	margin-top: 100px;
+	margin-bottom: 0px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+}
+
+.Denim{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-family: 'Anton';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 128px;
+}
+
+.buttom{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	width: 219px;
+	height: 64px;
+	background: black;
+	color: white;
+	text-align: center;
+	box-sizing: border-box;
+	padding-top: 5px;
+}
+
+.buttom:hover{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	width: 219px;
+	height: 64px;
+	background: #000033;
+	color: #bcbcbc;
+	text-align: center;
+	box-sizing: border-box;
+	padding-top: 5px;
+}
+
+.Bestsellers{
+	margin: 0 auto;
+	width: 1170px;
+	height: 617px;
+}
+
+.head-bestsellers{
+	display: flex;
+	align-items: center;
+}
+
+.View{
+	border-bottom: 2px solid black;
+}
+
+.main-title{
+	font-family: 'Work Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 32px;
+	margin-right: auto;
+}
+
+.wrap-sellers{
+	display: flex;
+	justify-content: center;
+}
+
+.sellers-blocks{
+	display: flex;
+	flex-direction: column;
+	margin-right: 30px;
+}
+
+div.sellers-blocks:last-child{
+	margin-right: 0px;
+}
+
+.name-of-seller{
+	margin-bottom: 15px;
+}
+
+.cost-of-sellers{
+	margin-top: 0px;
+}
+
+.News{
+	margin: 0 auto;
+	width: 1170px;
+	height: 617px;
+}
+
+.News-blocks{
+	display: flex;
+	height: 470px;
+}
+
+.G-star{
+	width: 400px;
+	height: 397px;
+	background: #F1F2F4;
+	display: flex;
+	flex-direction: column;
+	padding-left: 43px;
+	padding-right: 47px;
+	align-self: end;
+}
+
+.title-News{
+	font-family: 'Work Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+}
+
+.p-News{
+	font-family: 'Work Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	color: #727A82;
+}
+
+.News-img{
+	align-self: start;
+	width: 700px;
+	height: 370px;
+}
+
+.buttom-News{
+	text-align: center;
+	padding-top: 5px;
+	box-sizing: border-box;
+	width: 200px;
+	height: 64px;
+	background: #151C22;
+	color: white;
+}
+
+.buttom-News:hover{
+	text-align: center;
+	padding-top: 5px;
+	box-sizing: border-box;
+	width: 200px;
+	height: 64px;
+	background: #000033;
+	color: #bcbcbc;
+}
+
+.subtitle-News{
+	margin-bottom: 0px;
+	margin-top: 27px;
+}
+
+.p-News{
+	margin-top: 13px;
+}
+
+.title-News{
+	margin-top: 52px;
+	margin-bottom: 0px;
+}
+
+.Shop-by-category{
+	margin: 0 auto;
+	width: 1170px;
+	height: 617px;
+}
+
+.footer{
+	background: black;
+	color: white;
+	height: 222px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	box-sizing: border-box;
+}
+
+.footer-wrap-text{
+	display: flex;
+}
+
+.footer-text{
+	margin-right: 35px;
+}
+
+p.footer-text:last-child{
+	margin-right: 0px;
+}
+
+.img-footer{
+	margin-right: 28.85px;
+}
+
+img.img-footer:last-child{
+	margin-right: 0px;
+}
+.footer-wrap-img{
+	display: flex;
+	margin-bottom: 50px;
+	margin-top: 10px;
+}
+
+.Nimes{
+	margin-top: 50px;
+}

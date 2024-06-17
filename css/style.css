@@ -1,0 +1,876 @@
+/*початок сайту*/
+
+/*Задано всім*/
+* {
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+}
+
+/*Задано всім*/
+/*тіло сайту*/
+body{
+	margin: 0px;
+	min-width: 1500px;
+	min-height: 1500px;
+}
+/*тіло сайту*/
+
+/*Початок цсс шапки сайту*/
+
+.header{
+	margin: 0 auto;
+	max-width: 1550px;
+	height: 800px;
+	background-image: url(../img/header-background.jpg); 
+	background-repeat: no-repeat; 
+    background-position-x: right;
+    background-size: contain;
+    list-style-type: none;
+    margin-bottom: 0px;
+}
+
+.content-head{
+	max-width: 1550px;
+}
+
+.navigation{
+	height: 88px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.nav-block{
+	display: flex;
+	align-items: center;
+}
+
+.in-li{
+	text-decoration: none;
+	margin-right: 39px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	color: #FFFFFF;
+	transition: 0.3s;
+}
+
+.in-li:hover{
+	cursor: pointer;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	color: #FFFFFF;
+	transition: 0.3s;
+}
+
+.in-li:last-child{
+	margin-right: 41px;
+}
+
+.button{
+	width: 160px;
+	height: 42px;
+	background: white;
+	border-radius: 50px;
+	color: orange;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: transform 0.3s;
+}
+
+.button:hover{
+	width: 160px;
+	height: 42px;
+	background: white;
+	border-radius: 50px;
+	color: orange;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: transform 0.3s;
+	transform: scale(1.1);
+}
+
+.Me{
+	width: 273px;
+	height: 352px;
+	margin-right: 33px;
+}
+
+.Repalo-Adam{
+	height: 573px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	padding-left: 17%;
+	box-sizing: border-box;
+}
+
+.Front-End{
+	display: flex;
+	color: white;
+	height: 352px;
+	margin-bottom: 100px;
+}
+
+.birthday{
+	display: flex;
+}
+
+.button-star{
+	width: 223px;
+	height: 77px;
+	background: rgba(100, 226, 205, 0.5);
+	border-radius: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-top: 21px;
+	transition: 0.3s;
+}
+
+.button-star:hover{
+	width: 223px;
+	height: 77px;
+	background: rgba(100, 226, 205, 0.5);
+	border-radius: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-top: 21px;
+	transition: 0.3s;
+	transform: scale(1.1);
+}
+
+.box-zamovyty{
+	width: 192px;
+	height: 50px;
+	background: #64E2CD;
+	border-radius: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.wrap-content-Front-End{
+	display: flex;
+	flex-direction: column;
+}
+
+.subtitle{
+	font-weight: 700;
+	font-size: 40px;
+	margin-bottom: 30px;
+}
+
+.paraphraf{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.border-radius{
+	width: 261px;
+	height: 261px;
+	align-self: end;
+	background: radial-gradient(68.31% 68.31% at 50% 50%, #6FACFD 0%, #075ACA 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, #FFFFFF;
+	box-shadow: 0px 10px 50px #3272C8;
+	border-radius: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 19px;
+}
+
+.box-radius{
+	width: 231px;
+	height: 231px;
+	background: radial-gradient(68.31% 68.31% at 50% 50%, #F9FBFF 0%, #CADEF9 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, #FFFFFF;
+	box-shadow: 0px 10px 50px rgba(119, 157, 255, 0.3);
+	border-radius: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+.kapec{
+	display: flex;
+	height: 49px;
+    align-items: center;
+}
+
+.chyslo{
+	color: #FFA800;
+	font-weight: 700;
+	font-size: 34px;
+	margin-right: 5px;
+}
+
+.zamovyty{
+	transition: 0.3s;
+	font-weight: 700;
+	font-size: 14px;
+	color: #FFA800;
+	text-decoration: none;
+}
+
+.zamovyty-star{
+	transition: 0.3s;
+	font-weight: 700;
+	font-size: 14px;
+	color: white;
+	text-decoration: none;
+}
+
+.zamovyty-star:hover{
+	transition: 0.3s;
+	font-weight: 700;
+	font-size: 15px;
+	color: white;
+	cursor: pointer	;
+}
+
+.zamovyty:hover{
+	cursor: pointer;
+	transition: 0.3s;
+	font-weight: 700;
+	font-size: 15px;
+	color: #FFA800;
+	border-bottom: 1px solid black;
+}
+
+.bukwa-star{
+	margin-right: 5px;
+	color: #2F80ED;
+	font-weight: 700;
+	font-size: 30px;
+}
+
+.chyslo:last-child{
+	margin-right: 0px;
+}
+
+.bukwa{
+	font-weight: 800;
+	font-size: 14px;
+	color: #2F80ED;
+}
+
+.chytaty{
+	color: #2F80ED;
+	font-size: 10px;
+	font-weight: 700;
+	transition: 0.3s;
+}
+
+.chytaty:hover{
+	color: black;
+	font-size: 10px;
+	font-weight: 700;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+/*Кінець цсс шапки сайту*/
+
+
+/*Початок першої секції*/
+
+.one-sec{
+	margin: 0 auto;
+	max-width: 1550px;
+	background-image: url(../img/Rectangle.png); 
+	background-repeat: no-repeat; 
+    background-position-x: right;
+    background-size: contain;
+	height: 601.57px;
+	display: flex;
+	justify-content: flex-end;
+	padding-top: 30px;
+}
+
+.wrap-content-sec-one{
+	width: 1400px;
+	justify-content: space-around;
+	display: flex;
+}
+
+.text-sec-one{
+	height: 500px;
+	width: 600px;
+}
+
+.box-sec-one{
+	width: 250px;
+	height: 120px;
+	display: flex;
+	flex-direction: column;
+	margin-right: 20px;
+}
+
+.box-sec-one:nth-child(2){
+	width: 250px;
+	height: 120px;
+	display: flex;
+	flex-direction: column;
+	margin-right: 0px;
+}
+
+.box-sec-one:last-child{
+	width: 250px;
+	height: 120px;
+	display: flex;
+	flex-direction: column;
+	margin-right: 0px;
+}
+
+.box-wrap{
+	display: flex;
+	width: 525px;
+	height: 350px;
+	flex-wrap: wrap;
+}
+
+.h2-sec-one{
+	font-size: 15px;
+	margin-bottom: -10px;
+	color: darkorange;
+}
+
+.title-sec-one{
+	font-size: 30px;
+}
+
+.logo-school-wrap{
+	width: 345px;
+	height: 351px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: radial-gradient(68.31% 68.31% at 50% 50%, #FFFFFF 0%, #CADEF9 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, #FFFFFF;
+	box-shadow: 0px 10px 50px rgba(119, 157, 255, 0.3);
+	border-radius: 100%;
+}
+
+.bottom-sec-one{
+	color: #2F80ED;
+	border-bottom: 2px dashed #2F80ED;
+	padding-bottom: 5px;
+	width: 375px;
+	margin-top: 0px;
+	transition: 0.3s;
+}
+
+.bottom-sec-one:hover{
+	color: black;
+	border-bottom: 2px solid black;
+	padding-bottom: 5px;
+	width: 375px;
+	margin-top: 0px;
+	cursor: pointer;
+	font-size: 15px;
+	transition: 0.3s;
+}
+
+/*Кінець першої секції*/
+
+/*Початок третьої секції*/
+
+.sec-three{
+	margin: 0 auto;
+	height: 968.63px;
+	max-width: 1550px;
+	background-image: url(../img/sec-three-background.jpg); 
+	background-repeat: no-repeat; 
+  	background-position-x: left;
+  	background-size: contain;
+  	display: flex;
+  	justify-content: center;
+  	align-items: center;
+}
+
+.sec-three-box-content{
+	height: 720px;
+	width: 80%;
+}
+
+.h2-sec-three-box-content{
+	font-weight: 700;
+	font-size: 30px;
+	color: white;
+	margin-bottom: 32px;
+
+}
+
+.sec-three-wrap-blocks{
+	max-width: 1440px;
+	flex-wrap: wrap;
+	display: flex;
+}
+
+.block-project{
+	margin-bottom: 40px;
+	width: 565px;
+	height: 278.47px;
+	background: #FFFFFF;
+	box-shadow: 0px 10px 30px rgba(47, 55, 237, 0.1);
+	border-radius: 10px;
+	display: flex;
+	margin-right: 33px;
+	align-items: center;
+	justify-content: end;
+}
+
+.inside-wrap-block-project{
+	width: 555px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.project-image{
+	box-shadow: 0px 10px 20px rgba(47, 55, 237, 0.1);
+	background-image: cover;
+	width: 400px;
+	height: 252px;
+	object-fit: cover;
+}
+
+.wrap-with{
+	display: flex;
+	flex-direction: column;
+}
+
+.with{
+	width: 98px;
+	height: 40px;
+	background: #FFA800;
+	border-radius: 10px 0px 0px 10px;
+	margin-top: 14px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/*Кінець третьої секції */
+
+/*Початок четвертої секції*/
+
+.sec-four{
+	width: 1266px;
+	height: 983px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.wrap-sec-four{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin-bottom: 69px;
+}
+
+.bottom-wrap-sec-four{
+	display: flex;
+}
+
+.h2-sec-four{
+	margin-bottom: 99px;
+	font-weight: 700;
+	font-size: 30px;
+}
+
+.recomendation{
+	width: 351px;
+	height: 212px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background: #FFFFFF;
+	box-shadow: 0px 30px 100px rgba(47, 55, 237, 0.7);
+	border-radius: 10px;
+}
+
+.rec-wrap-sec-four{
+	margin-top: -20px;
+	width: 257px;
+	height: 114px;
+}
+
+.p-sec-four{
+	color: #2F80ED;
+}
+
+.h2-rec-sec-four{
+	color: #FFA800;
+}
+
+.p-two-sec-four{
+	color: #636363;
+}
+
+.icon-sec-four{
+	margin-bottom: 20px;
+}
+
+.h2-box-sec-four{
+	color: #2F80ED;
+	font-weight: 600;
+	font-size: 26px;
+}
+
+.p-box-sec-four{
+	font-weight: 400;
+	font-size: 16px;
+}
+
+.box-sec-four{
+	margin-right: 89px;
+}
+
+.box-sec-four:last-child{
+	margin-right: 0px;
+	position: relative;
+}
+
+.kolo-blur{
+	position: absolute;
+	width: 197px;
+	height: 197px;
+	border-radius: 100%;
+	background: radial-gradient(68.31% 68.31% at 50% 50%, #FFFFFF 0%, #CADEF9 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, #FFFFFF;
+	box-shadow: 0px 10px 50px rgba(119, 157, 255, 0.3);
+	filter: blur(10px);
+	top: -120px;
+	left: 70px;
+}
+
+/*Кінець четвертої секції*/
+
+/*Початок 5 секції*/
+
+.section-five{
+	background-position-x: right;
+	background-position-y: bottom;
+	background-image: url(../img/Ellipse.png);
+	background-repeat: no-repeat; 
+	max-width: 1550px;
+	display: flex;
+	margin: 0 auto;
+	text-align: center;
+	flex-direction: column;
+	height: 950px;
+	margin-bottom: -100px;
+}
+.sec-five-title{
+	margin-bottom: 105px;
+	font-weight: 700;
+	font-size: 30px;
+}
+
+.sec-five-wrap{
+	max-width: 1550px;
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+}
+
+.wrap-img-sec-five{
+	display: flex;
+	flex-direction: column;
+}
+
+.class{
+	margin-bottom: 21px;
+	width: 361px;
+	height: 268px;
+	transition: 0.5s;
+	object-fit: cover;
+}
+
+.class:hover{
+	width: 361px;
+	height: 268px;
+	transform: scale(1.1);
+	transition: 0.5s;
+	object-fit: cover;
+}
+
+/*Кінець 5 секції	*/
+
+/*Початок 6 секції*/
+
+.section-six{
+	background-position-x: left;
+	background-position-y: bottom;
+	background-repeat: no-repeat;
+	background-image: url(../img/Ellipse-blue.png);
+	height: 650px;
+	max-width: 1550px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.back-six-sec{
+	position: absolute;
+	margin-top: 70px;
+}
+
+.sec-six-title{
+	margin-bottom: 65px;
+}
+
+.sec-six-wrap{
+	display: flex;
+	justify-content: space-around;
+}
+
+.buy-my-site{
+	margin-right: 25px;
+	background: #FFFFFF;
+	box-shadow: 0px 20px 50px rgba(47, 55, 237, 0.12);
+	border-radius: 10px;
+	width: 271px;
+	height: 293px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: #2F80ED;
+	position: relative;
+}
+
+.buy-my-site:last-child{
+	margin-right: 0px;
+	background: #FFFFFF;
+	box-shadow: 0px 20px 50px rgba(47, 55, 237, 0.12);
+	border-radius: 10px;
+	width: 271px;
+	height: 293px;
+	color: #2F80ED;
+	position: relative;
+}
+
+.button-buy-my-site{
+	width: 192px;
+	height: 50px;
+	background: #52D1BC;
+	border-radius: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	transition: 0.3s;
+}
+
+.button-buy-my-site:hover{
+	width: 192px;
+	height: 50px;
+	background: #52D1BC;
+	border-radius: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+  	transition: transform 0.3s;
+  	transform: scale(1.1);
+}
+
+.zamovyty-two{
+	font-weight: 700;
+	font-size: 14px;
+	transition: 0.3s;
+	text-decoration: none;
+	color: white;
+}
+
+.zamovyty-two:hover{
+	font-weight: 700;
+	font-size: 15px;
+	border-bottom: 1px solid black;
+	transition: 0.3s;
+	color: white;
+	cursor: pointer;
+}
+
+.time{
+	margin-bottom: 12px;
+}
+
+.cost{
+	margin-bottom: 32px;
+}
+
+/*Кінець 6 секції*/
+
+/*Початок підвалу*/
+
+.footer{
+	margin: 0 auto;
+	max-width: 1550px;
+	height: 270px;
+	display: flex;
+	flex-direction: column;
+	background: #2F80ED;
+	padding-top: 47px;
+	box-sizing: border-box;
+	list-style-type: none;
+}
+
+.footer-block-head{
+	display: flex;
+	justify-content: center;
+}
+
+.location-footer{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 45%;
+	color: white;
+}
+
+.location-footer:first-child{
+	display: flex;
+	justify-content: space-between;
+	width: 40%;
+	color: white;
+	margin-right: 13px;
+}
+
+.logo-my-school{
+	width: 106px;
+	height: 40px;
+}
+
+.oh-one{
+	display: flex;
+	align-items: center;
+}
+
+.p-text-footer{
+	color: white;
+	text-decoration: none;
+	margin-right: 13px;
+	font-weight: 400;
+	font-size: 14px;
+	transition: 0.3s;
+}
+
+
+.p-text-footer:hover{
+	margin-right: 13px;
+	font-weight: 700;
+	font-size: 16px;
+	transition: 0.3s;
+	cursor: pointer;
+}
+
+
+.footer-block{
+	margin-top: 41px;
+	height: 77px;
+	background: #185FBF;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 136px;
+	padding-right: 136px;
+	color: white;
+}
+
+.oh-two{
+	display: flex;
+	justify-content: space-between;
+	width: 40%;
+}
+
+.button-buy-my-site-three{
+	width: 160px;
+	height: 42px;
+	background: #FFFFFFFF;
+	border-radius: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	transition: 0.3s;
+}
+
+.button-buy-my-site-three:hover{
+	width: 160px;
+	height: 42px;
+	background: #FFFFFFFF;
+	border-radius: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	transition: 0.3s;
+	transform: scale(1.1);
+}
+
+.zamovyty-three{
+	font-weight: 700;
+	font-size: 14px;
+	color: #FFA800;
+	transition: 0.3s;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.zamovyty-three:hover{
+	font-weight: 700;
+	font-size: 15px;
+	border-bottom: 1px solid black;
+	color: #FFA800;
+	transition: 0.3s;
+	cursor: pointer;
+}
+
+.oh-text{
+	color: white;
+	text-decoration: none;
+	font-weight: 400;
+	font-size: 14px;
+	opacity: 0.7;
+	transition: 0.3s;
+	cursor: pointer;
+}
+
+.oh-text:hover{
+	font-weight: 400;
+	font-size: 14px;
+	opacity: 1;
+	transition: 0.3s;
+	color: white;
+	cursor: pointer;
+}
+
+
+.kolo{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+	background: orange;
+	color: white;
+	position: absolute;
+	left: 190px;
+	top: -50px;
+	
+}
+
+/*кінець підвалу*/
+/*кінець сайту*/

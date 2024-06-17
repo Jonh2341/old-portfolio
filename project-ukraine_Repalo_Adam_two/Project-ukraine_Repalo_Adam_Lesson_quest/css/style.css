@@ -1,0 +1,208 @@
+*{
+	font-family: 'Jura', sans-serif;
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+.container{
+	margin: 0 auto;
+	width: 1240px;
+}
+
+.new_section_one{
+	margin-top: 10px;
+	width: 1240px;
+	height: 750px;
+	background: #D4F9F2;
+}
+
+.tree{
+	margin-bottom: 60px;
+}
+
+.left{
+	float: left;
+	width: 400px;
+	padding-top: 70px;
+	padding-left: 40px;
+}
+
+.title_new{
+	font-family: 'Jura';
+	font-style: normal;
+	font-size: 100px;
+	margin-bottom: 33px;
+}
+
+.bottom_new{
+	width: 360px;
+	height: 50px;
+	background: #FF1C52;
+	padding-left: 60px;
+	padding-top: 15px;
+	box-sizing: border-box;
+	box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.nav_in_bottom_new:hover{
+	color: black;
+}
+
+.nav_in_bottom_new{
+	font-family: 'Jura';
+	font-style: normal;
+	color: white;
+}
+
+.right{
+	float: right;
+}
+
+.section3{
+	background: #b6fbff;
+	width: 1240px;
+	height: 380px;
+}
+.block1{
+	width: 260px;
+	height: 250px;
+	font-family: 'Jura', sans-serif;
+	font-style: normal;
+	font-size: 16px;
+	background: #FFFFFF;
+	display: inline-block;
+	margin: 20px;
+	margin-top: 50px;
+}
+img.snow:first-child{
+	float: left;
+}
+img.snow:last-child{
+	float: right;
+}
+.christmasicon{
+	height: 58px;
+    width: 58px;
+    margin-left: 10px;
+}
+.christext{
+	margin-left: 15px;
+}
+.christit{
+	margin-left: 15px;
+}
+img.snow:first-child{
+	margin-right: 14px;
+}
+img.snow:last-child{
+	margin-left: 14px;
+}
+.christmastree{
+	color: #258A86;
+	font-family: 'Jura', sans-serif;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 28px;
+	text-align: center;
+}
+.block1:nth-child(odd){
+	background: #F9C00D;
+}
+
+.dreamworldsection {
+  width: 1240px;
+  height: 430px;
+  background: #FF1C52;
+  padding: 40px 55px;
+
+}
+.dreamworldtitle {
+  color: white;
+  text-align: center;
+  margin-bottom: 40px;
+  width: 500px;
+  display: inline-block;
+}
+
+.dreamworld4div {
+  width: 260px;
+  height: 250px;
+  padding: 20px 15px;
+  display: inline-block;
+  margin-right: 18px;
+  float: left;
+}
+.dreamworld4div:nth-child(odd) {
+  background: #258A86;
+  color: white;
+}
+.dreamworld4div:nth-child(even) {
+  background: #FFFFFF;
+}
+.dreamworld4divtitle {
+  margin-bottom: 15px;
+}
+.stars {
+  display: inline-block;
+}
+.titlecontainer {
+  width: 380px;
+  margin-left: 300px;
+}
+
+img.snow:first-child{
+	margin-left: 40px;
+}
+img.snow:last-child{
+	margin-right: 40px;
+}
+
+.dreamworldsection_two {
+  width: 1240px;
+  height: 430px;
+  background: #E5E5E5;
+  padding: 40px 55px;
+
+}
+.dreamworldtitle_two {
+  color: #258A86;
+  text-align: center;
+  margin-bottom: 60px;
+  width: 500px;
+  display: inline-block;
+}
+
+.dreamworld4div_two {
+  width: 260px;
+  height: 250px;
+  padding: 20px 15px;
+  display: inline-block;
+  margin-right: 18px;
+  float: left;
+}
+.dreamworld4div_two:nth-child(odd) {
+  background: #F9C00D;
+  color: black;
+}
+.dreamworld4div_two:nth-child(even) {
+  background: #FFFFFF;
+}
+.dreamworld4divtitle_two {
+  margin-bottom: 15px;
+}
+.stars_two {
+  display: inline-block;
+}
+.titlecontainer_two {
+  width: 380px;
+  margin-left: 300px;
+}
+
+img.snow_two:first-child{
+	margin-right: 10px;
+}
+img.snow_two:last-child{
+	margin-left: 10px;
+}
+
